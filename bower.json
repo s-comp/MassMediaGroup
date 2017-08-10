@@ -1,0 +1,21 @@
+{
+  "name": "optimizedhtml",
+  "description": "OptimizedHTML - Start HTML Template",
+  "main": "index.js",
+  "authors": [
+    "WebDesign Master"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.0"
+  }
+}

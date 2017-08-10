@@ -1,0 +1,40 @@
+/* Important styles */
+.toggle {
+  position: relative;
+  top: 7px;
+  right: 0;
+  display: inline-block;
+  width: 21px;
+  height: 22px;
+  line-height: 0;
+}
+.toggle span {
+  position: relative;
+  display: block;
+}
+
+.toggle span {
+  background: #fff;
+  border: 1px solid #000;
+  display: block;
+  height: 3px;
+  margin: 0 0 5px;
+  transition: all 0.3s ease-in-out;
+  width: 30px;
+}
+
+/* on activation */
+
+.toggle.on span {
+  &:first-child {
+    transform: rotate(45deg);
+    transform-origin: 10px 10px;
+  }
+  &:nth-child(2) {
+    opacity: 0;
+  }
+  &:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 6px -8px;
+  }
+}

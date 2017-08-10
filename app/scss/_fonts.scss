@@ -1,0 +1,5 @@
+@import "bourbon";
+
+@include font-face("DINPro", "../fonts/DinproMedium/dinpromedium", medium, $file-formats: eot woff ttf);
+@include font-face("DINPro", "../fonts/DinproLight/dinprolight", light, $file-formats: eot woff ttf);
+@include font-face("DINPro", "../fonts/DinproRegular/dinproregular", regular, $file-formats: eot woff ttf);
